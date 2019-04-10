@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+    color: #fff !important;
+
+}
+
+nav.navbar{
+    background: rgb(73, 73, 73);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+
+}
+
+ ul li{
+    margin: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+ ul li:hover a {
+    padding-bottom:20px; 
+    border-bottom: 4px solid #50CFFF;
+    opacity: 0.5;
+    
+}
+
+.logo{
+    font-family: cursive;
+}
+
+nav.navbar ul li.logo a{
+    color: #50CFFF;
+    font-size: 25px;
+
+}
+
+nav.navbar ul li.logo:hover a{
+    border: none;
+    opacity: 1;
+}
+
+nav.navbar ul li a{
+    font-size: 20px;
+}
+
+header{
+    background-image: url('../images/22290059_2094108697281639_3998441308433915457_o.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    height: 90vh;
+    position: relative;
+}
+
+header .container button{
+    position: relative;
+    z-index: 2;
+    top: 65vh;
+    border: none;
+    background: #50CFFF;
+    border-radius: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px
+}
+
+#btn-contact{
+    background-color: transparent;
+    border: 1px solid #50CFFF;
+}
+
+#btn-contact a{
+    color: #50CFFF;
+}
+
+#btn-contact:hover{
+    background: rgb(150, 227, 255);
+    border: none;
+}
+
+#btn-contact:hover a{
+    color: #fff;
+}
+
+header .container button:hover{
+    background: rgb(150, 227, 255);
+
+}
+
+.OverLay{
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    z-index: 1;
+}
+
+
+#About-Me{
+    margin: 20px;
+    width: 200px;
+    padding-bottom: 12px;
+    color: #50CFFF;
+    border-bottom: 3px solid rgb(102, 102, 102) ;
+}
+
+.img-cv{
+    display: flex;
+    justify-content: center;
+}
+
+.img-cv img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 0 3px 1.5px #50CFFF;
+    margin: 40px;
+    margin-bottom: 15px;
+}
+
+
+.myCV h2{
+    text-align: center;
+    color: rgb(102, 102, 102);
+}
+
+.myCV p {
+    margin: 10px 0 ;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(102, 102, 102);
+}
+
+hr {
+    margin: 30px 0;
+}
+
+#contact h2{
+    margin: 20px 0;
+    width: 200px;
+    padding-bottom: 12px;
+    margin-bottom: 50px;
+    color: #50CFFF;
+    border-bottom: 3px solid rgb(102, 102, 102) ;
+}
+
+input[type=text], select, textarea {
+    width: 50vw !important;
+    padding: 12px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    box-sizing: border-box !important;
+    margin-top: 6px !important;
+    margin-bottom: 16px !important;
+    resize: vertical !important;
+    display: block !important;
+}
+  
+input[type=submit] {
+    background-color: #50CFFF;
+    color: white;
+    padding: 12px 20px !important;
+    border: none;
+    border-radius: 4px !important;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: rgb(150, 227, 255);
+}
+  
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background: #343a40;
+    height: 6vh;
+    color: #fff;
+    text-align: center;
+}
+
+footer strong{
+    color: #50CFFF;
+    font-family: cursive;
+    
+}
